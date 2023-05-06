@@ -1,0 +1,35 @@
+.filter-color {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.filter-color a img {
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.tab-content img {
+    border: 1px solid #F5F1E1;
+}
+
+ul.list_trang {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.list_trang li {
+    float: left;
+    padding: 5px 13px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #c7c1a9;
+    display: block;
+}
+
+ul.list_trang li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}

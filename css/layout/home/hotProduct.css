@@ -1,0 +1,151 @@
+/*------------ 6. Hot Deals Area --------------*/
+.hot-deals-area {
+  background-attachment: scroll;
+  background-image: url("../img/home-1/hot-deals.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.titel {
+  margin-top: 60%;
+}
+
+.pro-details {
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+
+.titel>h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 5px;
+  position: relative;
+  color: #666666;
+}
+
+.titel>h4::before {
+  background: #FF7575 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 10%;
+  left: 0;
+  position: absolute;
+  width: 12%;
+}
+
+.pro-details h5 {
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  color: #343434;
+  margin: 0;
+}
+
+.pro-review>ul {
+  margin-bottom: 9px;
+  margin-top: 13px;
+}
+
+.pro-review ul li>span {
+  font-family: lato;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.pro-shop {
+  padding: 20px 0 35px;
+}
+
+.pro-review>p b {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.pro-review>p {
+  margin: 0 0 26px;
+}
+
+.pro-review p span {
+  color: #ff002a;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.pro-details .pro-shop a i {
+  border: 1px solid #444444;
+  color: #444444;
+  height: 36px;
+  left: 0;
+  line-height: 36px;
+  margin-bottom: 0;
+  margin-top: -40px;
+  overflow: hidden;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition-duration: 0.25s;
+  transition-property: all;
+  width: 36px;
+}
+
+.pro-details .pro-shop a i:hover {
+  background: #FF7575 none repeat scroll 0 0;
+  border-color: #FF7575;
+  color: #fff;
+}
+
+.cdown {
+  display: inline-block;
+  color: #343434;
+  text-align: center;
+  margin-top: 12px;
+  position: relative;
+  border-radius: 50%;
+  padding-top: 10px;
+  width: 72px;
+  height: 72px;
+  font-family: lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #fff;
+  line-height: 55px;
+}
+
+.time-count {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.cdown.days,
+.cdown.hour,
+.cdown.minutes,
+.cdown.second {
+  margin-right: 5px;
+}
+
+.product-offer {
+  background: #ff7575 none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 65px;
+  line-height: 65px;
+  margin-left: -12%;
+  margin-top: 45%;
+  position: absolute;
+  text-align: center;
+  width: 65px;
+}
+
+.product-offer>span {
+  color: #fff;
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 700;
+}

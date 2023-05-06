@@ -1,0 +1,281 @@
+/*------------ 8. Footer Area --------------*/
+.footer-top {
+  background: #363636 none repeat scroll 0 0;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.social-icon {
+  padding: 60px 0;
+}
+
+.social-icon ul li a i {
+  color: #fff;
+  font-size: 16px;
+  padding: 0 5px;
+  transition: .4s;
+}
+
+.social-icon ul li a i:hover {
+  color: #FF7575;
+}
+
+.search-input {
+  padding: 48px 0;
+}
+
+.foteer-news {
+  color: #fff;
+  float: left;
+  font-family: lato;
+  padding: 34px 0;
+  width: 235px;
+}
+
+.foteer-news>h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.foteer-news>p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.search-input input {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  position: relative;
+  width: 385px;
+}
+
+.search-input .search-button {
+  background: #ff7575 none repeat scroll 0 0;
+  border: 1px solid #ff7575;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  float: none;
+  font-family: lato;
+  font-weight: 400;
+  margin: 0 auto 0 -20px;
+  padding: 10px 25px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 9999999;
+}
+
+/*-- Footer Middle --*/
+.footer-middle {
+  background: #363636 none repeat scroll 0 0;
+  color: #f1f1f1;
+  padding: 45px 0;
+}
+
+.address-area>p {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 25px 0 40px;
+}
+
+.contact-details li {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.address-area .contact-details ul li i {
+  border: 1px solid #bbbbbb;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  width: 40px;
+  font-size: 20px;
+}
+
+.address-area .contact-details ul li:hover i {
+  color: #ff7575;
+}
+
+.footer-menu {
+  padding-right: 74px;
+}
+
+.footer-menu>h4 {
+  border-bottom: 1px solid #787878;
+  color: #f1f1f1;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 0 19px;
+}
+
+.footer-menu ul li {
+  border-bottom: 1px solid #787878;
+}
+
+.footer-menu ul li a {
+  color: #f1f1f1;
+  cursor: pointer;
+  display: block;
+  font-family: lato;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+.footer-menu li:last-child a {
+  padding-bottom: 0;
+}
+
+.footer-menu li:nth-child(6) {
+  border-bottom: medium none;
+}
+
+.footer-menu ul li a:hover {
+  color: #FF7575;
+  padding-left: 8px;
+}
+
+/*-- Footer Bottom --*/
+.footer-bottom-area {
+  background: #454545 none repeat scroll 0 0;
+}
+
+.footer-bottom-area p {
+  color: #fff;
+  font-family: roboto;
+  font-size: 13px;
+  line-height: 65px;
+  margin-bottom: 0;
+}
+
+.footer-bottom-area p a {
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-bottom-area p a:hover {
+  color: #FF7575;
+}
+
+.footer-bottom-area img {
+  float: right;
+  padding-top: 15px;
+}
+
+/*----------------------------------------*/
+/*  9. Home Two
+  /*----------------------------------------*/
+/*------------ 9.1 Header Area --------------*/
+.hm-two .header-top-area {
+  background: #00CCCC none repeat scroll 0 0;
+}
+
+.hm-two .left-msg h6 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 14px 0;
+}
+
+.hm-two .curency {
+  color: #fff;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 0 11px 10px;
+}
+
+.hm-two .current {
+  border-left: 0px solid #f1f2f2;
+  margin-left: 5px;
+}
+
+.hm-two .curency ul {
+  border-top: 0px solid #444444;
+}
+
+.hm-two .right-login ul li a:hover,
+.hm-two .main-menu ul li.active a,
+.hm-two .main-menu ul li>a:hover,
+.hm-two .header-middle-checkout .checkout-content h4.media-heading a:hover {
+  color: #00CCCC;
+}
+
+.middle-area {
+  background: #f5f5f5 none repeat scroll 0 0;
+  height: 143px;
+}
+
+.middle-area .search-area form {
+  border: 1px solid #bbbbbb;
+  border-radius: 20px;
+  float: left;
+  margin: 50px 0;
+  width: 95%;
+}
+
+.middle-area .search-area input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #9c9c9c;
+  float: left;
+  font-size: 13px;
+  font-weight: 300;
+  height: 38px;
+  padding: 0 0 0 15px;
+  width: 90%;
+}
+
+.middle-area .search-area .btn-search {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #BBBBBB;
+  float: right;
+  font-weight: normal;
+  height: 38px;
+  line-height: 38px;
+  padding: 0;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+  width: 34px;
+}
+
+.hm-two .logo-area {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hm-two .mini-cart-icon span {
+  background: #00CCCC none repeat scroll 0 0;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block !important;
+  font-size: 12px;
+  font-weight: 500;
+  height: 20px;
+  line-height: 22px;
+  position: absolute;
+  right: 4px;
+  text-align: center;
+  text-shadow: 0 0 0;
+  top: -4px;
+  width: 20px;
+}
+
+.hm-two .menu-right-area {
+  padding: 55px 0;
+}
+
+.hm-two .mini-cart-icon i {
+  color: #a2a2a2;
+  font-size: 20px;
+}

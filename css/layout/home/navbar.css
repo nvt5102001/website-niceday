@@ -1,0 +1,329 @@
+/*-- Menu Mega Menu --*/
+.menu-area {
+  background: #343434 none repeat scroll 0 0;
+}
+
+.logo-area {
+  padding: 20px 0;
+}
+
+.main-menu {
+  position: relative;
+  text-align: center;
+}
+
+.main-menu ul li {
+  position: relative;
+}
+
+.main-menu ul li>a {
+  color: #fff;
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 35px 10px;
+  position: relative;
+}
+
+.main-menu ul li>a:hover {
+  color: #FF7575;
+}
+
+.main-menu ul li.active a {
+  color: #FF7575;
+}
+
+.mega-menu,
+.single {
+  background-color: #343434;
+  border-color: #ff7575 #343434 #343434;
+  border-image: none;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 2px 0 7px 0 rgba(0, 0, 0, 0.13);
+  left: -365px;
+  margin: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  transform: scaleY(0);
+  transform-origin: 0 0 0;
+  transition: all 0.4s ease 0s;
+  width: 923px;
+  z-index: 3000;
+  visibility: hidden;
+}
+
+.mega-menu,
+.single {
+  text-align: left;
+}
+
+.main-menuul li .mega-menu span a::before,
+.main-menu ul li ul.sub-menu li a::before {
+  content: "";
+  font-family: fontawesome;
+  margin-right: 5px;
+}
+
+.main-menu ul li>ul.sub-menu.single {
+  left: 0;
+  top: 100%;
+  width: 235px;
+}
+
+.expand:hover .single {
+  opacity: 1;
+  transform: scaleY(1);
+  z-index: 9999;
+  visibility: visible;
+}
+
+.main-menu ul li>ul.sub-menu>li {
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.main-menu ul li .mega-menu span>a,
+.main-menu ul li ul.sub-menu li>a {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 0;
+  text-transform: none;
+  display: block;
+}
+
+.main-menu ul li .mega-menu span a.mega-title::before,
+.main-menu ul li .mega-menu span.mega-menu-img a::before,
+.main-menu ul li ul.sub-menu li.sub-menu-title a::before {
+  display: none;
+}
+
+.main-menu ul li .mega-menu span a.mega-title,
+.main-menu ul li ul li.sub-menu-title a {
+  border-bottom: 1px solid #ebebeb;
+  color: #fff;
+  display: block;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-menu ul li:hover .mega-menu span a:hover,
+.main-menu ul li ul.sub-menu li a:hover {
+  color: #FF7575;
+}
+
+.main-menu ul li:hover .mega-menu {
+  opacity: 1;
+  transform: scaleY(1);
+  visibility: visible;
+}
+
+.mobile-menu-area {
+  display: none;
+}
+
+.mega-menu span {
+  float: left;
+  padding-right: 30px;
+  width: 22%;
+}
+
+.main-menu ul li .mega-menu span.mega-menu-img {
+  width: 34%;
+}
+
+.mega-menu.two-column {
+  left: 20px;
+  width: 425px;
+}
+
+.mega-menu.two-column span {
+  width: 50%;
+}
+
+.menu-right-area {
+  padding: 28px 0;
+  text-align: right;
+}
+
+.menu-right-area ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.cart-toggler i {
+  border-right: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  height: 32px;
+  line-height: 27px;
+  padding-right: 15px;
+  text-align: center;
+  width: 32px;
+}
+
+.menu-right-area .header-bottom-search {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 69%;
+  width: 280px;
+  z-index: 9999;
+}
+
+.menu-right-area .header-bottom-search form {
+  border: 1px solid #fff;
+  float: left;
+  width: 100%;
+}
+
+.menu-right-area .header-bottom-search input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #9c9c9c;
+  float: left;
+  font-size: 13px;
+  font-weight: 300;
+  height: 38px;
+  padding: 0 0 0 15px;
+  width: 100%;
+}
+
+.mini-cart-icon {
+  margin-left: 6px;
+}
+
+.mini-cart-icon i {
+  border: 0 none;
+  color: #fff;
+}
+
+.mini-cart-icon span {
+  background: #ff7575 none repeat scroll 0 0;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block !important;
+  font-size: 12px;
+  font-weight: 500;
+  height: 20px;
+  line-height: 22px;
+  position: absolute;
+  right: 4px;
+  text-align: center;
+  text-shadow: 0 0 0;
+  top: -4px;
+  width: 20px;
+}
+
+.top-cart-content {
+  background: #343434 none repeat scroll 0 0;
+  border-top: 2px solid #ff7575;
+  color: #fff;
+  display: block;
+  opacity: 0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 62px;
+  transform: scaleY(0);
+  transform-origin: 0 0 0;
+  transition: all 0.5s ease 0s;
+  width: 280px;
+  z-index: 99;
+  visibility: hidden;
+}
+
+.menu-right-area ul li:hover .top-cart-content {
+  opacity: 1;
+  transform: scaleY(1);
+  visibility: visible;
+}
+
+.header-middle-checkout {
+  border-color: -moz-use-text-color -moz-use-text-color #eee;
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  padding: 0 0 10px !important;
+}
+
+.media-left.check-img {
+  display: block;
+  float: left;
+}
+
+.media-heading>a,
+.media-left.check-img>a {
+  padding: 0 !important;
+}
+
+.header-middle-checkout .media-heading {
+  margin-bottom: 5px;
+  margin-top: 0;
+  position: relative;
+}
+
+.header-middle-checkout .checkout-content h4.media-heading a {
+  color: #fff;
+  font-family: raleway;
+  font-size: 13px;
+  margin-right: 16px;
+}
+
+.header-middle-checkout .checkout-content h4.media-heading a:hover {
+  color: #ff7575;
+}
+
+.header-middle-checkout .checkout-content .checkout-remove {
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 0 5px;
+}
+
+.top-cart-content .actions {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  cursor: pointer;
+  margin: 10px 0 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+}
+
+.top-cart-content .actions button.Checkout-botton {
+  background: #ff7575 none repeat scroll 0 0;
+  border: 1px solid #ff7575;
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 89px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 1s ease 0s;
+  white-space: nowrap;
+}
+
+.top-cart-content .actions button.Checkout-botton:hover {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}

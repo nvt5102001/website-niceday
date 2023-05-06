@@ -1,0 +1,61 @@
+.header__statistics 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.statistics 
+{
+    width: 100%;
+}
+.statistics .title-statistics
+{
+    font-size: 40px;
+}
+.statistics .row 
+{
+    margin: 20px 0;
+}
+.export-child {
+    display: none;
+}
+.showEl 
+{
+    display: block;
+}
+
+.exports 
+{
+    position: relative;
+}
+.exports .export-child
+{
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    border: 1px solid #a5a5a5;
+    border-radius: 4px ;
+}
+.export-child
+{
+    min-width: 200px;
+}
+.export-child button
+{
+    width: 100%;
+    background-color: #cecece;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #333;
+    padding: 10px;
+}
+.export-child button:hover 
+{
+    background-color: #eee;
+}
+.export-child button + .export-child button 
+{
+    border-top: 2px solid #a5a5a5;
+}

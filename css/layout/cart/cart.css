@@ -1,0 +1,43 @@
+.table-cart 
+{
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    
+}
+.table-cart th, .table-cart td 
+{
+    border: 1px solid #333 !important;
+    padding: 15px;
+    text-align: center;
+}
+
+.table-cart h4 
+{
+    font-size: 16px;
+    margin: 0;
+}
+.table-cart .product-stt
+{
+    width: 10%;
+}
+
+.table-cart .product-image
+{
+    width: 15%;
+}
+.table-cart .product-name
+{
+    width: 30%;
+}
+.table-cart .product-unit-price
+{
+    width: 15%;
+}
+.table-cart .product-quantity 
+{
+    width: 15%;
+}
+.table-cart .product-subtotal
+{
+    width: 15%;
+}

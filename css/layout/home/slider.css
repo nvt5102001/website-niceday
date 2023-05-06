@@ -1,0 +1,91 @@
+.slider-area-main .slider-1 h1 {
+  left: 20%;
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+  color: #333;
+}
+
+.slider-area-main .slider-1 p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  left: 20%;
+  margin-bottom: 40px;
+  padding-right: 65%;
+  position: relative;
+  font-family: lato;
+}
+
+.slider-area-main .slider-1 h3 {
+  left: 20%;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  font-family: lato;
+}
+
+.slider-area-main .slider-1 h3.title3>a {
+  border: 1px solid #333;
+  border-radius: 20px;
+  color: #333;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.slider-area-main .slider-1 h3.title3>a:hover {
+  color: #fff;
+  background: #666666;
+}
+
+.slider-area-main .preview-1 a.nivo-nextNav {
+  right: 70px;
+}
+
+.slider-area-main .preview-1 a.nivo-prevNav {
+  left: 70px;
+}
+
+.slider-area-main .preview-1 .nivo-directionNav a:hover {
+  opacity: .3;
+}
+
+.slider-area-main .slider-2 h1 {
+  position: relative;
+  left: 20%;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: lato;
+  color: #666666;
+}
+
+.slider-area-main .slider-2 h3 {
+  position: relative;
+  left: 20%;
+  text-transform: uppercase;
+  font-weight: uppercase;
+  font-family: lato;
+  color: #666666;
+}
+
+.slider-area-main .slider-3 h1 {
+  right: 20%;
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.slider-area-main .slider-3 h3 {
+  right: 20%;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  color: #666666;
+}

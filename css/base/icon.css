@@ -1,0 +1,16 @@
+.icon {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url("../../img/Sprites.64af8f61.svg");
+}
+
+.icon-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.icon-search {
+    background-position: -988px -356px;
+}

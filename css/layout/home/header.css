@@ -1,0 +1,165 @@
+.header-top-area {
+  background: #f0f0f0 none repeat scroll 0 0;
+}
+
+.left-msg h6 {
+  color: #444444;
+  font-family: raleway;
+  font-size: 13px;
+  margin: 0;
+  padding: 15px 0;
+  transition: .4s;
+}
+
+.left-msg h6:hover {
+  color: #FF7575;
+}
+
+.curency {
+  color: #444444;
+  font-family: lato;
+  font-size: 13px;
+  padding: 15px 0 11px 10px;
+  position: relative;
+}
+
+.current {
+  border-left: 1px solid #f1f2f2;
+  cursor: pointer;
+}
+
+.current a {
+  color: #444444;
+}
+
+.hm-two .current a {
+  color: #fff;
+}
+
+.curency ul {
+  background: #ffffff none repeat scroll 0 0;
+  border-top: 2px solid #FF7575;
+  box-shadow: 0 2px 2px #e5e5e5;
+  display: none;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 45px;
+  width: 150px;
+  z-index: 10;
+}
+
+.curency ul li {
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.right-login ul li a {
+  color: #444444;
+  font-family: lato;
+  text-decoration: none;
+}
+
+.right-login ul li a:hover {
+  color: #FF7575;
+}
+
+
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__left ul {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.header__left ul li a {
+  color: #fff;
+}
+
+.header__left ul li a:hover {
+  color: #FF7575;
+}
+
+.header__left,
+.header__right {
+  flex: 1;
+}
+
+.header__center {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__right {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: flex-end;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header__search input {
+  height: 32px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  outline: none;
+  min-width: 200px;
+  padding-left: 12px;
+  padding-right: 32px;
+}
+
+.header__search .search-button {
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  transform: translateY(-50%);
+  background-color: transparent !important;
+  outline: none;
+  border: none;
+
+}
+
+
+.header__icon {
+  position: relative;
+}
+
+.header__icon i::before {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header__icon .totalInCart {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #333;
+}
+
+.header__icon .totalInCart span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}

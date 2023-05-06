@@ -1,0 +1,169 @@
+
+  /*------------ 10.1 Banner Area --------------*/
+  .bannerhead-area {
+    background: rgba(0, 0, 0, 0) url("../../../img/other-pg/header-banner.jpg") no-repeat scroll center center;
+    position: relative;
+  }
+  .bannerhead-area .banner-heading {
+    padding: 170px 0;
+    text-align: center;
+  }
+  .bannerhead-area .banner-heading h1, .bannerhead-area .banner-heading h2 {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  /* -------------- 10.2 Welcome Area  ---------------- */
+  .welcome-area .welcome-heading > h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .welcome-left {
+    padding-right: 10px;
+  }
+  .welcome-left-titel h3 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+  }
+  .welcome-left-titel h3::before {
+    background: #C9C9C9 none repeat scroll 0 0;
+    bottom: -7px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 20%;
+  }
+  .welcome-left > p {
+    font-size: 14px;
+    margin-top: 42px;
+    text-align: justify;
+  }
+  .whoare-skill-heading > h3, .skill-titel h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 49px;
+    position: relative;
+  }
+  .whoare-skill-heading h3::before {
+    background: #c9c9c9 none repeat scroll 0 0;
+    bottom: -7px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 11%;
+  }
+
+
+
+  /* -------------- 10.3 Who Are Skill Area  ---------------- */
+  .whoare-skill-area {
+    padding-top: 45px;
+  }
+  .panel-group {
+    margin-bottom: 0px;
+  }
+  .whoare-skill-left .panel-body {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+  }
+  .whoare-skill-left .panel-group .panel {
+    border-radius: 0;
+  }
+  .whoare-skill-left .panel-default > .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  }
+  .whoare-skill-right {
+    display: block;
+    overflow: hidden;
+  }
+  .whoare-skill-left .panel-title > a.right {
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  .whoare-skill-left .panel-title > a.right:hover {
+    color:#444444;
+  }
+  .whoare-skill-left .panel-title > a.border {
+    border-right: 1px solid #ddd;
+    margin-left: -15px;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+  }
+  .skill_area {
+    color: #666666;
+    padding-top: 12px;
+  }
+  .whoare-skill-left .panel-title > a.border:hover{
+    background: #FF7575 none repeat scroll 0 0;
+    color:#fff;
+  }
+  .whoare-skill-left .border i {
+    display: inline-block;
+    margin-left: -5px;
+  }
+  .whoare-skill-left .skill_area {
+    display: block;
+    padding-top: 15px;
+  }
+  .whoare-skill-left .skill-titel h3::before {
+    background: #c9c9c9 none repeat scroll 0 0;
+    bottom: -7px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 18%;
+  }
+  .progress-bar p {
+    margin-top: -32px;
+  }
+  .tpl-progress {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: 400;
+    height: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    overflow: visible;
+    text-transform: uppercase;
+  }
+  .tpl-progress .progress-bar {
+    background-color: #222;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+    overflow: visible;
+    padding-top: 2px;
+    position: relative;
+    text-align: left;
+  }
+  .tpl-progress .progress-bar > span {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    height: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    right: -5px;
+    text-align: center;
+    top: -38px;
+    width: 32px;
+  }

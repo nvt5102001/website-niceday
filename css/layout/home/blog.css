@@ -1,0 +1,130 @@
+/*------------ 7. Latest Blog Area --------------*/
+.blog-area {
+  margin-top: 24px;
+}
+
+.latest-blog-area .blog-content i {
+  color: #767676;
+  display: block;
+  font-size: 20px;
+  overflow: hidden;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.left-content.text-center {
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.left-content.text-center>h1,
+.left-content.text-center>h3 {
+  font-family: lato;
+  font-size: 61px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.left-content.text-center>h3 {
+  font-size: 46px;
+}
+
+.blog-left:hover .left-content.text-center {
+  opacity: 1;
+  visibility: visible;
+  top: 45%;
+}
+
+.latest-blog-area .blog-content span {
+  color: #767676;
+  display: block;
+  font-family: roboto;
+  font-weight: 500;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.blog-content {
+  background: #F0F0F0 none repeat scroll 0 0;
+  padding: 0 20px;
+}
+
+.blog-content>p {
+  color: #444444;
+  font-family: roboto;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.blog-content a {
+  background: #FF7575 none repeat scroll 0 0;
+  border-radius: 20px;
+  bottom: 0;
+  color: #fff;
+  display: inline-block;
+  font-family: lato;
+  font-size: 12px;
+  font-weight: 700;
+  height: 35px;
+  line-height: 35px;
+  margin: 27px auto 40px 50px;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: all 0.4s ease 0s;
+  width: 110px;
+}
+
+.blog-content a:hover {
+  background: #444444;
+}
+
+.product-image-overlay {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-left img,
+.blog-right img {
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+}
+
+.blog-left:hover img {
+  transform: scale(1.1);
+}
+
+.blog-right:hover img {
+  transform: scale(1.1);
+}
+
+.product-image-overlay::after {
+  background: rgba(68, 68, 68, 0.3) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.blog-left:hover .product-image-overlay::after {
+  opacity: .4;
+}
+
+.blog-right:hover .product-image-overlay::after {
+  opacity: .3;
+}
+
+.our-brand-area {
+  padding: 60px 0;
+}
